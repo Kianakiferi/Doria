@@ -3,9 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-using Doria.URP.Scripts.States;
+using Doria.URP.States;
 
-namespace Doria.URP.Scripts.StateMachines
+namespace Doria.URP.StateMachines
 {
     public abstract class StateMachine : MonoBehaviour
     {

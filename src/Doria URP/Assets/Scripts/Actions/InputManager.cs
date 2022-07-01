@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace Doria.URP.Scripts.Actions
+namespace Doria.URP.Actions
 {
     public class InputManager : MonoBehaviour, Controls.IPlayerActions
     {

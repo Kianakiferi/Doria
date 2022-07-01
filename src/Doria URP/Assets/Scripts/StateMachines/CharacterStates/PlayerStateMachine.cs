@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-using Doria.URP.Scripts.Actions;
-using Doria.URP.Scripts.States.CharacterStates.Player;
+using Doria.URP.Actions;
+using Doria.URP.States.CharacterStates.Player;
 
-namespace Doria.URP.Scripts.StateMachines.CharacterStates
+namespace Doria.URP.StateMachines.CharacterStates
 {
     public class PlayerStateMachine : StateMachine
     {
@@ -21,7 +21,7 @@ namespace Doria.URP.Scripts.StateMachines.CharacterStates
         {
             CameraMainTransform = Camera.main.transform;
             
-            SwitchState(new PlayerFreeLookState(this));
+            SwitchState(new FreeLookState(this));
 
             Debug.Log("Player State Machine Start");
         }

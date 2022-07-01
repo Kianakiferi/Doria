@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Doria.URP.Scripts.States
+namespace Doria.URP.States
 {
     public abstract class StateBase
     {
